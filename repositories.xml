@@ -1,9 +1,9 @@
 <repositories version="1.1" encoding="unicode">
   <repo quality="experimental" priority="50">
-    <name>gentoo-ulomiri</name>
-    <description>A Gentoo overlay to build the Lomiri user interface</description>
+    <name>gentoo-lomiri</name>
+    <description>A Gentoo overlay to build the Lomiri user interface.</description>
     <owner>
-      <name>c4pp4</name>
+      <name>renegart</name>
     </owner>
     <source type="git">https://github.com/renegart/gentoo-lomiri.git</source>
   </repo>
