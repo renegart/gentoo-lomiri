@@ -1,7 +1,7 @@
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --autounmask-keep-masks"
 
 # disable QT6 for a while
-USE="${USE} -qt6"
+USE="${USE} -qt6 -plasma"
 
 # disable gtk for a while
 USE="${USE} -gtk"
