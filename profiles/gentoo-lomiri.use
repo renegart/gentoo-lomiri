@@ -1,0 +1,5 @@
+*/* wayland
+*/* -qt6
+
+# disable gtk for a while
+*/* -gtk

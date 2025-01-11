@@ -1,0 +1,11 @@
+dev-util/click::gentoo-lomiri
+
+lomiri-base/*::gentoo-lomiri
+lomiri-extra/*::gentoo-lomiri
+lomiri-indicators/*::gentoo-lomiri
+
+media-libs/qmenumodel::gentoo-lomiri
+
+mir-base/*::gentoo-lomiri
+
+net-misc/libqofono::gentoo-lomiri
