@@ -15,14 +15,14 @@ else
     SRC_URI="https://gitlab.com/ubports/development/core/${PN}/-/archive/${PV}/${PN}-${PV}.tar.gz"
 fi
 
-DESCRIPTION=""
+DESCRIPTION="<DESCRIPTION>"
 HOMEPAGE="https://gitlab.com/ubports/development/core/${PN}"
 
 LICENSE="GPL-3"
 SLOT="0"
-RESTRICT=test"
 
 DEPEND="
+    dev-libs/glib
 "
 RDEPEND="${DEPEND}"
 
@@ -36,11 +36,9 @@ BDEPEND="
 
 #src_configure() {
 #    local mycmakeargs=(
-#        -DENABLE_TESTS="OFF"
-#        -DENABLE_COVERAGE="OFF"
-#        -DUSE_SYSTEMD="ON"
-#        -DENABLE_MIRCLIENT="OFF"
-#        -DLOMIRI_APP_LAUNCH_ARCH="None"
+#        -DWANT_TESTS="OFF"
+#        -DWANT_DEMO="OFF"
+#        -DWANT_DOC="OFF"
 #    )
 #
 #    cmake_src_configure
