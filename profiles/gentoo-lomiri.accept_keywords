@@ -1,5 +1,6 @@
 dev-build/*::gentoo-lomiri
 dev-util/*::gentoo-lomiri
+dev-libs/*::gentoo-lomiri
 
 lomiri-base/*::gentoo-lomiri
 lomiri-extra/*::gentoo-lomiri
