@@ -1,0 +1,25 @@
+@startmindmap package dependencies
+legend right
+    | Color | Type |
+    |<back:red>          </back>| package planed|
+    |<back:yellow>          </back>| package started, but not finished|
+    |<back:green>          </back>| package finished|
+endlegend
+
+top to bottom direction
+*[#green] lomiri-env
+*[#lightblue] lomiri-base/lomiri-meta
+  *[#green] lomiri-base/lomiri
+    *[#green] net-libs/geonames
+  *[#yellow] lomiri-indicators/lomiri-network-indicator
+    *[#green] lomiri-base/lomiri-api
+    *[#red] lomiri-extra/lomiri-url-dispatcher
+      *[#green] dev-util/click
+        *[#green] properties-cpp
+          *[#green] dev-build/cmake-extras
+    *[#yellow] lomiri-extra/lomiri-app-launch
+      *[#green] dev-util/click
+      *[#yellow] gnome-extra/zeitgeist
+      *[#green] lomiri-base/lomiri-api
+      *[#red] mir-base/mir
+@endmindmap
