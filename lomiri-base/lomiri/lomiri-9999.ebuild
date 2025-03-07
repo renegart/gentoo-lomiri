@@ -23,10 +23,13 @@ fi
 
 LICENSE="GPL-3 LGPL-2.1"
 SLOT="0"
+KEYWORDS="~amd64"
 RESTRICT="test"
 
 COMMON_DEPEND="
 	dev-libs/glib
+	dev-qt/qtconcurrent:5
+	dev-qt/qtdeclarative:5
 	dev-qt/qtsvg:5
 	dev-qt/qtsql:5
 	dev-qt/qtxml:5
