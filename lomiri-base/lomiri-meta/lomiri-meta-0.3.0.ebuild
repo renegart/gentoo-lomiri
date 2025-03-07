@@ -14,6 +14,9 @@ KEYWORDS="~amd64"
 #REQUIRED_USE="gnome? ( extra )"
 #RESTRICT="binchecks strip test"
 
-RDEPEND=""
+DEPEND="
+    lomiri-base/lomiri
+"
+RDEPEND="${DEPEND}"
 
 S="${WORKDIR}"
