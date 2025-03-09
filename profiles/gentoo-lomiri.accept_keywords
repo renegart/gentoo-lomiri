@@ -4,13 +4,13 @@ dev-libs/*::gentoo-lomiri
 
 gnome-extra/*::gentoo-lomiri
 
+gui-libs/mir::guru
+
 lomiri-base/*::gentoo-lomiri
 lomiri-extra/*::gentoo-lomiri
 lomiri-indicators/*::gentoo-lomiri
 
 media-libs/*::gentoo-lomiri
-
-mir-base/*::gentoo-lomiri
 
 net-libs/*::gentoo-lomiri
 

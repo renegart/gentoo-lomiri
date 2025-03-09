@@ -22,13 +22,14 @@ LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND="
+    dev-libs/boost:=
     dev-libs/glib
     dev-libs/gobject-introspection
     dev-util/click
     gnome-extra/zeitgeist
     lomiri-base/lomiri-api
     media-fonts/libertine
-    mir-base/mir
+    >=gui-libs/mir-2.15.0
     net-misc/curl
     sys-apps/dbus
     sys-apps/systemd

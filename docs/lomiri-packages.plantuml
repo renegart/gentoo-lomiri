@@ -1,7 +1,8 @@
 @startmindmap package dependencies
-legend left
-    | Color | Type |
-    |<back:red>          </back>| package planed|
+legend right
+    | Color | Package Type |
+    |<back:DarkCyan>          </back>| meta package|
+    |<back:red>          </back>| package planed, but not started yet|
     |<back:yellow>          </back>| package started, but not finished|
     |<back:green>          </back>| package finished|
     |<back:lightgreen>          </back>| package used moretimes as dependency |
@@ -9,19 +10,21 @@ endlegend
 
 top to bottom direction
 *[#green] lomiri-env
-*[#lightblue] lomiri-base/lomiri-meta
+*[#DarkCyan] lomiri-base/lomiri-meta
   *[#yellow] lomiri-base/lomiri
-    *[#red] dev-libs/qmenumodel
+    *[#green] dev-libs/qmenumodel
     *[#green] net-libs/geonames
-  *[#yellow] lomiri-indicators/lomiri-network-indicator
-    *[#green] lomiri-base/lomiri-api
-    *[#red] lomiri-extra/lomiri-url-dispatcher
+    *[#lightgreen] lomiri-extra/lomiri-app-launch
       *[#lightgreen] dev-util/click
         *[#green] properties-cpp
           *[#green] dev-build/cmake-extras
-    *[#yellow] lomiri-extra/lomiri-app-launch
-      *[#lightgreen] dev-util/click
       *[#green] gnome-extra/zeitgeist
-      *[#green] lomiri-base/lomiri-api
-      *[#red] mir-base/mir
+      *[#lightgreen] lomiri-base/lomiri-api
+      *[#green] gui-libs/mir::guru
+  *[#yellow] lomiri-indicators/lomiri-network-indicator
+    *[#lightgreen] lomiri-base/lomiri-api
+    *[#red] lomiri-extra/lomiri-url-dispatcher
+      *[#lightgreen] dev-util/click
+    *[#lightgreen] lomiri-extra/lomiri-app-launch
+
 @endmindmap
