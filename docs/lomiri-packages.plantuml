@@ -8,7 +8,6 @@ legend right
     |<back:lightgreen>          </back>| package used moretimes as dependency |
 endlegend
 
-top to bottom direction
 *[#green] lomiri-env
 *[#DarkCyan] lomiri-base/lomiri-meta
   *[#yellow] lomiri-base/lomiri
@@ -21,10 +20,21 @@ top to bottom direction
       *[#green] gnome-extra/zeitgeist
       *[#lightgreen] lomiri-base/lomiri-api
       *[#green] gui-libs/mir::guru
+    *[#green] ayatana-indicators/ayatana-indicator-keyboard
+      *[#green] dev-libs/libayatana-common
+        *[#lightgreen] lomiri-extra/lomiri-url-dispatcher
+          *[#lightgreen] dev-util/click
+          *[#lightgreen] lomiri-extra/lomiri-app-launch
+    *[#red] ayatana-indicators/ayatana-indicator-session
+    *[#red] biometryd
+    *[#red] lomiri-base/lomiri-notifications
+    *[#red] lomiri-base/lomiri-schemas
+    *[#red] lomiri-base/lomiri-settings-components
+    *[#red] lomiri-extra/lomiri-telephony-service
+    *[#red] lomiri-extra/lomiri-thumbnailer
   *[#yellow] lomiri-indicators/lomiri-network-indicator
     *[#lightgreen] lomiri-base/lomiri-api
-    *[#red] lomiri-extra/lomiri-url-dispatcher
-      *[#lightgreen] dev-util/click
+    *[#lightgreen] lomiri-extra/lomiri-url-dispatcher
     *[#lightgreen] lomiri-extra/lomiri-app-launch
 
 @endmindmap

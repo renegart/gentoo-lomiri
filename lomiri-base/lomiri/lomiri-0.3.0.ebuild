@@ -2,10 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-#DISTUTILS_EXT=1
-#DISTUTILS_OPTIONAL=1
-#DISTUTILS_SINGLE_IMPL=1
-#PYTHON_COMPAT=( python3_{10..13} )
 
 inherit cmake
 
@@ -23,18 +19,20 @@ fi
 
 LICENSE="GPL-3 LGPL-2.1"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="test"
 
 COMMON_DEPEND="
+	ayatana-indicator-keyboard
 	dev-libs/glib
+	dev-libs/qmenumodel
 	dev-qt/qtconcurrent:5
 	dev-qt/qtdeclarative:5
 	dev-qt/qtsvg:5
 	dev-qt/qtsql:5
 	dev-qt/qtxml:5
 	gnome-base/gnome-desktop:3
-	net-libs/geonames
+	>=lomiri-extra/lomiri-app-launch-0.1.5
+	>=net-libs/geonames-0.3.1
 "
 
 RDEPEND="${COMMON_DEPEND}"
