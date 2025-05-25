@@ -7,7 +7,7 @@ CMAKE_MAKEFILE_GENERATOR=emake
 inherit cmake
 
 KEYWORDS="~amd64"
-SRC_URI="https://releases.ayatana-indicators.org/source/${PN}/${PN}-${PV}.tar.gz"
+SRC_URI="https://releases.ayatana-indicators.org/source/${PN}/${P}.tar.gz"
 
 
 DESCRIPTION="Ayatana Indicator Keyboard Applet"
@@ -18,7 +18,7 @@ SLOT="0"
 
 DEPEND="
     dev-libs/glib
-    dev-libs/libayatana-appindicator
+    dev-libs/libayatana-common
     sys-apps/accountsservice
     x11-libs/libX11
     x11-libs/libxkbcommon
