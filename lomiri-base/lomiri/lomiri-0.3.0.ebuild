@@ -22,7 +22,7 @@ SLOT="0"
 RESTRICT="test"
 
 COMMON_DEPEND="
-	ayatana-indicator-keyboard
+	ayatana-indicator/ayatana-indicator-keyboard
 	dev-libs/glib
 	dev-libs/qmenumodel
 	dev-qt/qtconcurrent:5
