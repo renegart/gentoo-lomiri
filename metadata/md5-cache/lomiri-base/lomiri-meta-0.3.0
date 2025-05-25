@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DEPEND=lomiri-base/lomiri
+DESCRIPTION=Lomiri (Unity8) Desktop - merge this to pull in all Lomiri packages
+EAPI=8
+HOMEPAGE=https://lomiri.com
+KEYWORDS=~amd64
+LICENSE=metapackage
+RDEPEND=lomiri-base/lomiri
+SLOT=0
+_md5_=ec25f232fc65dcd5e79cd6ffee8d797a

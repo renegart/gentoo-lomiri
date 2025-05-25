@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Setup the Lomiri build environment.
+EAPI=8
+HOMEPAGE=https://github.com/renegart/gentoo-lomiri
+IUSE=dev
+KEYWORDS=amd64
+LICENSE=GPL-2+
+RESTRICT=binchecks strip test
+SLOT=0
+_md5_=bd44dcbfd515dd7da7f47fdb2ef3d749
