@@ -8,33 +8,34 @@ legend right
     |<back:lightgreen>          </back>| package used moretimes as dependency |
 endlegend
 
-*[#green] lomiri-env::lomiri
-*[#DarkCyan] lomiri-base/lomiri-meta::lomiri
-  *[#yellow] lomiri-base/lomiri::lomiri
-    *[#green] dev-libs/qmenumodel::lomiri
-    *[#green] net-libs/geonames::lomiri
-    *[#green] lomiri-extra/lomiri-app-launch::lomiri
-      *[#green] dev-util/click::lomiri
-        *[#green] properties-cpp::lomiri
-          *[#green] dev-build/cmake-extras::lomiri
-      *[#green] gnome-extra/zeitgeist::lomiri
-      *[#green] lomiri-base/lomiri-api::lomiri
+*[#green] lomiri-env::gentoo-lomiri
+*[#DarkCyan] lomiri-base/lomiri-meta::gentoo-lomiri
+  *[#yellow] lomiri-base/lomiri::gentoo-lomiri
+    *[#green] dev-libs/qmenumodel::gentoo-lomiri
+    *[#green] net-libs/geonames::gentoo-lomiri
+    *[#green] lomiri-extra/lomiri-app-launch::gentoo-lomiri
+      *[#green] dev-util/click::gentoo-lomiri
+        *[#green] properties-cpp::gentoo-lomiri
+          *[#green] dev-build/cmake-extras::gentoo-lomiri
+      *[#green] gnome-extra/zeitgeist::gentoo-lomiri
+      *[#green] lomiri-base/lomiri-api::gentoo-lomiri
       *[#green] gui-libs/mir::**guru**
-    *[#green] ayatana-indicators/ayatana-indicator-keyboard::lomiri
-      *[#green] dev-libs/libayatana-common::lomiri
-        *[#green] lomiri-extra/lomiri-url-dispatcher::lomiri
-          *[#lightgreen] dev-util/click::lomiri
-          *[#lightgreen] lomiri-extra/lomiri-app-launch::lomiri
-    *[#red] ayatana-indicators/ayatana-indicator-session::lomiri
-    *[#red] biometryd::lomiri
-    *[#red] lomiri-base/lomiri-notifications::lomiri
-    *[#red] lomiri-base/lomiri-schemas::lomiri
-    *[#red] lomiri-base/lomiri-settings-components::lomiri
-    *[#red] lomiri-extra/lomiri-telephony-service::lomiri
-    *[#red] lomiri-extra/lomiri-thumbnailer::lomiri
-  *[#yellow] lomiri-indicators/lomiri-network-indicator::lomiri
-    *[#lightgreen] lomiri-base/lomiri-api::lomiri
-    *[#lightgreen] lomiri-extra/lomiri-url-dispatcher::lomiri
-    *[#lightgreen] lomiri-extra/lomiri-app-launch::lomiri
+    *[#green] ayatana-indicators/ayatana-indicator-keyboard::gentoo-lomiri
+      *[#green] dev-libs/libayatana-common::gentoo-lomiri
+        *[#green] lomiri-extra/lomiri-url-dispatcher::gentoo-lomiri
+          *[#lightgreen] dev-util/click::gentoo-lomiri
+          *[#lightgreen] lomiri-extra/lomiri-app-launch::gentoo-lomiri
+    *[#green] ayatana-indicators/ayatana-indicator-session::gentoo-lomir
+      *[#lightgreen] dev-libs/libayatana-common::gentoo-lomiri
+    *[#red] biometryd::gentoo-lomiri
+    *[#red] lomiri-base/lomiri-notifications::gentoo-lomiri
+    *[#red] lomiri-base/lomiri-schemas::gentoo-lomiri
+    *[#red] lomiri-base/lomiri-settings-components::gentoo-lomiri
+    *[#red] lomiri-extra/lomiri-telephony-service::gentoo-lomiri
+    *[#red] lomiri-extra/lomiri-thumbnailer::gentoo-lomiri
+  *[#yellow] lomiri-indicators/lomiri-network-indicator::gentoo-lomiri
+    *[#lightgreen] lomiri-base/lomiri-api::gentoo-lomiri
+    *[#lightgreen] lomiri-extra/lomiri-url-dispatcher::gentoo-lomiri
+    *[#lightgreen] lomiri-extra/lomiri-app-launch::gentoo-lomiri
 
 @endmindmap

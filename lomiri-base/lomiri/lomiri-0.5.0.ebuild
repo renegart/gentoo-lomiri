@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -14,7 +14,7 @@ if [[ ${PV} == 9999 ]]; then
     inherit git-r3
 else
     KEYWORDS="~amd64"
-    SRC_URI="https://gitlab.com/ubports/development/core/${PN}/-/archive/${PV}/${PN}-${PV}.tar.gz"
+    SRC_URI="https://gitlab.com/ubports/development/core/${PN}/-/archive/${PV}/${P}.tar.gz"
 fi
 
 LICENSE="GPL-3 LGPL-2.1"
@@ -23,6 +23,7 @@ RESTRICT="test"
 
 COMMON_DEPEND="
 	ayatana-indicators/ayatana-indicator-keyboard
+	ayatana-indicators/ayatana-indicator-session
 	dev-libs/glib
 	dev-libs/qmenumodel
 	dev-qt/qtconcurrent:5
@@ -46,9 +47,9 @@ BDEPEND="
 "
 
 PATCHES=(
-	"${FILESDIR}"/0001-cursor-Always-follow-cursor-position-from-mir.patch
-	"${FILESDIR}"/0002-Disable-broken-tests-due-to-dropped-mocks-from-mir-2.patch
-	"${FILESDIR}"/0005-Disable-lightdm-integration.patch
-	"${FILESDIR}"/0006-Change-hard-coded-launcher-logo-to-one-set-by-a-reso.patch
-	"${FILESDIR}"/2010_use-desktop-qtmir.patch
+	"${FILESDIR}"/0001-Disable-broken-tests-due-to-dropped-mocks-from-mir-2.patch
+	"${FILESDIR}"/0002-Add-qt5-suffix-to-search-for-Qt-tools.patch
+	"${FILESDIR}"/0004-Disable-lightdm-integration.patch
+	"${FILESDIR}"/0005-Use-Mir-2.x.patch
+	"${FILESDIR}"/0006-Build-with-C-20.patch
 )

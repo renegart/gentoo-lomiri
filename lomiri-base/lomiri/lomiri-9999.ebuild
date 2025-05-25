@@ -22,14 +22,18 @@ SLOT="0"
 RESTRICT="test"
 
 COMMON_DEPEND="
+	ayatana-indicators/ayatana-indicator-keyboard
+	ayatana-indicators/ayatana-indicator-session
 	dev-libs/glib
+	dev-libs/qmenumodel
 	dev-qt/qtconcurrent:5
 	dev-qt/qtdeclarative:5
 	dev-qt/qtsvg:5
 	dev-qt/qtsql:5
 	dev-qt/qtxml:5
 	gnome-base/gnome-desktop:3
-	net-libs/geonames
+	>=lomiri-extra/lomiri-app-launch-0.1.5
+	>=net-libs/geonames-0.3.1
 "
 
 RDEPEND="${COMMON_DEPEND}"
@@ -43,9 +47,9 @@ BDEPEND="
 "
 
 PATCHES=(
-	"${FILESDIR}"/0001-cursor-Always-follow-cursor-position-from-mir.patch
-	"${FILESDIR}"/0002-Disable-broken-tests-due-to-dropped-mocks-from-mir-2.patch
-	"${FILESDIR}"/0005-Disable-lightdm-integration.patch
-	"${FILESDIR}"/0006-Change-hard-coded-launcher-logo-to-one-set-by-a-reso.patch
-	"${FILESDIR}"/2010_use-desktop-qtmir.patch
+	"${FILESDIR}"/0001-Disable-broken-tests-due-to-dropped-mocks-from-mir-2.patch
+	"${FILESDIR}"/0002-Add-qt5-suffix-to-search-for-Qt-tools.patch
+	"${FILESDIR}"/0004-Disable-lightdm-integration.patch
+	"${FILESDIR}"/0005-Use-Mir-2.x.patch
+	"${FILESDIR}"/0006-Build-with-C-20.patch
 )
