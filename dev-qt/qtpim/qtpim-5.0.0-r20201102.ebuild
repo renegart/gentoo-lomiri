@@ -14,7 +14,7 @@ DESCRIPTION="Qt Personal Information Management"
 HOMEPAGE="https://qt-project.org/"
 
 LICENSE="LGPL-2.1 LGPL-3 GPL-3"
-SLOT="0"
+SLOT="5"
 
 DEPEND="
 
