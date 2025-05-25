@@ -31,9 +31,6 @@ BDEPEND="
     dev-build/cmake-extras
 "
 
-#PATCHES=(
-#)
-
 src_configure() {
     local mycmakeargs=(
         -DENABLE_WERROR="ON"
