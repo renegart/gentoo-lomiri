@@ -8,33 +8,33 @@ legend right
     |<back:lightgreen>          </back>| package used moretimes as dependency |
 endlegend
 
-*[#green] lomiri-env
-*[#DarkCyan] lomiri-base/lomiri-meta
-  *[#yellow] lomiri-base/lomiri
-    *[#green] dev-libs/qmenumodel
-    *[#green] net-libs/geonames
-    *[#lightgreen] lomiri-extra/lomiri-app-launch
-      *[#lightgreen] dev-util/click
-        *[#green] properties-cpp
-          *[#green] dev-build/cmake-extras
-      *[#green] gnome-extra/zeitgeist
-      *[#lightgreen] lomiri-base/lomiri-api
-      *[#green] gui-libs/mir::guru
-    *[#green] ayatana-indicators/ayatana-indicator-keyboard
-      *[#green] dev-libs/libayatana-common
-        *[#lightgreen] lomiri-extra/lomiri-url-dispatcher
-          *[#lightgreen] dev-util/click
-          *[#lightgreen] lomiri-extra/lomiri-app-launch
-    *[#red] ayatana-indicators/ayatana-indicator-session
-    *[#red] biometryd
-    *[#red] lomiri-base/lomiri-notifications
-    *[#red] lomiri-base/lomiri-schemas
-    *[#red] lomiri-base/lomiri-settings-components
-    *[#red] lomiri-extra/lomiri-telephony-service
-    *[#red] lomiri-extra/lomiri-thumbnailer
-  *[#yellow] lomiri-indicators/lomiri-network-indicator
-    *[#lightgreen] lomiri-base/lomiri-api
-    *[#lightgreen] lomiri-extra/lomiri-url-dispatcher
-    *[#lightgreen] lomiri-extra/lomiri-app-launch
+*[#green] lomiri-env::lomiri
+*[#DarkCyan] lomiri-base/lomiri-meta::lomiri
+  *[#yellow] lomiri-base/lomiri::lomiri
+    *[#green] dev-libs/qmenumodel::lomiri
+    *[#green] net-libs/geonames::lomiri
+    *[#green] lomiri-extra/lomiri-app-launch::lomiri
+      *[#green] dev-util/click::lomiri
+        *[#green] properties-cpp::lomiri
+          *[#green] dev-build/cmake-extras::lomiri
+      *[#green] gnome-extra/zeitgeist::lomiri
+      *[#green] lomiri-base/lomiri-api::lomiri
+      *[#green] gui-libs/mir::**guru**
+    *[#green] ayatana-indicators/ayatana-indicator-keyboard::lomiri
+      *[#green] dev-libs/libayatana-common::lomiri
+        *[#green] lomiri-extra/lomiri-url-dispatcher::lomiri
+          *[#lightgreen] dev-util/click::lomiri
+          *[#lightgreen] lomiri-extra/lomiri-app-launch::lomiri
+    *[#red] ayatana-indicators/ayatana-indicator-session::lomiri
+    *[#red] biometryd::lomiri
+    *[#red] lomiri-base/lomiri-notifications::lomiri
+    *[#red] lomiri-base/lomiri-schemas::lomiri
+    *[#red] lomiri-base/lomiri-settings-components::lomiri
+    *[#red] lomiri-extra/lomiri-telephony-service::lomiri
+    *[#red] lomiri-extra/lomiri-thumbnailer::lomiri
+  *[#yellow] lomiri-indicators/lomiri-network-indicator::lomiri
+    *[#lightgreen] lomiri-base/lomiri-api::lomiri
+    *[#lightgreen] lomiri-extra/lomiri-url-dispatcher::lomiri
+    *[#lightgreen] lomiri-extra/lomiri-app-launch::lomiri
 
 @endmindmap
