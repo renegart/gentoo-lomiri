@@ -13,6 +13,7 @@ endlegend
   *[#yellow] lomiri-base/lomiri::gentoo-lomiri
     *[#green] dev-libs/deviceinfo::gentoo-lomiri
     *[#green] dev-libs/qmenumodel::gentoo-lomiri
+    *[#red] dev-qt/qtmir::gentoo-lomiri
     *[#green] net-libs/geonames::gentoo-lomiri
     *[#green] lomiri-extra/lomiri-app-launch::gentoo-lomiri
       *[#green] dev-util/click::gentoo-lomiri
@@ -30,7 +31,7 @@ endlegend
       *[#lightgreen] dev-libs/libayatana-common::gentoo-lomiri
     *[#red] biometryd::gentoo-lomiri
     *[#red] lomiri-base/lomiri-notifications::gentoo-lomiri
-    *[#red] lomiri-base/lomiri-schemas::gentoo-lomiri
+    *[#green] lomiri-base/lomiri-schemas::gentoo-lomiri
     *[#red] lomiri-base/lomiri-settings-components::gentoo-lomiri
     *[#red] lomiri-extra/lomiri-telephony-service::gentoo-lomiri
     *[#red] lomiri-extra/lomiri-thumbnailer::gentoo-lomiri

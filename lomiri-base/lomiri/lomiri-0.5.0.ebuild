@@ -26,12 +26,15 @@ COMMON_DEPEND="
 	ayatana-indicators/ayatana-indicator-session
 	dev-libs/glib
 	dev-libs/qmenumodel
+	dev-libs/deviceinfo
 	dev-qt/qtconcurrent:5
 	dev-qt/qtdeclarative:5
+	dev-qt/qtmir:5
 	dev-qt/qtsvg:5
 	dev-qt/qtsql:5
 	dev-qt/qtxml:5
 	gnome-base/gnome-desktop:3
+	>=lomiri-base/lomiri-schemas-0.1.8
 	>=lomiri-extra/lomiri-app-launch-0.1.5
 	>=lomiri-extra/lomiri-ui-toolkit-1.3.5110
 	>=net-libs/geonames-0.3.1
