@@ -33,6 +33,7 @@ COMMON_DEPEND="
 	dev-qt/qtxml:5
 	gnome-base/gnome-desktop:3
 	>=lomiri-extra/lomiri-app-launch-0.1.5
+	>=lomiri-extra/lomiri-ui-toolkit-1.3.5110
 	>=net-libs/geonames-0.3.1
 "
 

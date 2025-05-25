@@ -33,6 +33,10 @@ endlegend
     *[#red] lomiri-base/lomiri-settings-components::gentoo-lomiri
     *[#red] lomiri-extra/lomiri-telephony-service::gentoo-lomiri
     *[#red] lomiri-extra/lomiri-thumbnailer::gentoo-lomiri
+    *[#green] lomiri-extra/lomiri-ui-toolkit::gentoo-lomiri
+      *[#green] dev-qt/qtfeedback::gentoo-lomiri
+      *[#green] dev-qt/qtpim::gentoo-lomiri
+      *[#green] dev-qt/qtsystems::gentoo-lomiri
   *[#yellow] lomiri-indicators/lomiri-network-indicator::gentoo-lomiri
     *[#lightgreen] lomiri-base/lomiri-api::gentoo-lomiri
     *[#lightgreen] lomiri-extra/lomiri-url-dispatcher::gentoo-lomiri

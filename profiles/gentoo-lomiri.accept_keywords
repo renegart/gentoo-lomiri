@@ -2,6 +2,7 @@ ayatana-indicators/*::gentoo-lomiri
 dev-build/*::gentoo-lomiri
 dev-util/*::gentoo-lomiri
 dev-libs/*::gentoo-lomiri
+dev-qt/*::gentoo-lomiri
 
 gnome-extra/*::gentoo-lomiri
 

@@ -3,8 +3,7 @@
 
 EAPI=8
 
-CMAKE_MAKEFILE_GENERATOR=emake
-inherit cmake
+inherit qmake-utils
 
 if [[ ${PV} == 9999 ]]; then
     KEYWORDS=""
@@ -18,28 +17,31 @@ fi
 DESCRIPTION="<DESCRIPTION>"
 HOMEPAGE="https://gitlab.com/ubports/development/core/${PN}"
 
-LICENSE="GPL-3"
+LICENSE="LGPL-3"
 SLOT="0"
 
 DEPEND="
-    dev-libs/glib
+
 "
 RDEPEND="${DEPEND}"
 
 BDEPEND="
-    dev-build/cmake
-    dev-build/cmake-extras
+    dev-util/intltool
+    dev-qt/qtdeclarative:5
 "
 
 #PATCHES=(
 #)
 
-#src_configure() {
-#    local mycmakeargs=(
-#        -DWANT_TESTS="OFF"
-#        -DWANT_DEMO="OFF"
-#        -DWANT_DOC="OFF"
-#    )
-#
-#    cmake_src_configure
-#}
+src_prepare() {
+        default
+}
+
+
+src_configure() {
+    eqmake5 CONFIG+=no_docs
+}
+
+src_install() {
+    emake install INSTALL_ROOT="${D}"
+}
