@@ -11,6 +11,7 @@ endlegend
 *[#green] lomiri-env::gentoo-lomiri
 *[#DarkCyan] lomiri-base/lomiri-meta::gentoo-lomiri
   *[#yellow] lomiri-base/lomiri::gentoo-lomiri
+    *[#green] dev-libs/deviceinfo::gentoo-lomiri
     *[#green] dev-libs/qmenumodel::gentoo-lomiri
     *[#green] net-libs/geonames::gentoo-lomiri
     *[#green] lomiri-extra/lomiri-app-launch::gentoo-lomiri
