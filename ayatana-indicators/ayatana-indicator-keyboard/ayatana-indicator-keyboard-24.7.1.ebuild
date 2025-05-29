@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit cmake
+inherit cmake xdg
 
 KEYWORDS="~amd64"
 SRC_URI="https://releases.ayatana-indicators.org/source/${PN}/${P}.tar.gz"
@@ -37,4 +37,12 @@ src_configure() {
     )
 
     cmake_src_configure
+}
+
+pkg_postinstall() {
+    xdg_desktop_database_update
+}
+
+pkg_postrm() {
+    xdg_desktop_database_update
 }
