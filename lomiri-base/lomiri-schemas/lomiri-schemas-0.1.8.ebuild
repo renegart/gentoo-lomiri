@@ -3,6 +3,7 @@
 
 EAPI=8
 
+CMAKE_MAKEFILE_GENERATOR=emake
 inherit cmake
 
 if [[ ${PV} == 9999 ]]; then
