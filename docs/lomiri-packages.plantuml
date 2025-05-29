@@ -13,7 +13,9 @@ endlegend
   *[#yellow] lomiri-base/lomiri::gentoo-lomiri
     *[#green] dev-libs/deviceinfo::gentoo-lomiri
     *[#green] dev-libs/qmenumodel::gentoo-lomiri
-    *[#red] dev-qt/qtmir::gentoo-lomiri
+    *[#yellow] dev-qt/qtmir::gentoo-lomiri
+      *[#green] dev-libs/process-cpp:gentoo-lomiri
+      *[#green] dev-qt/qtsensors::gentoo-lomiri
     *[#green] net-libs/geonames::gentoo-lomiri
     *[#green] lomiri-extra/lomiri-app-launch::gentoo-lomiri
       *[#green] dev-util/click::gentoo-lomiri
