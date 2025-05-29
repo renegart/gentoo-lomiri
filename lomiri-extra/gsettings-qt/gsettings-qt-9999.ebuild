@@ -22,6 +22,7 @@ SLOT="0"
 
 DEPEND="
     dev-libs/glib
+    dev-qt/qtcore:5
 "
 
 RDEPEND="${DEPEND}"
@@ -29,6 +30,7 @@ RDEPEND="${DEPEND}"
 BDEPEND="
     dev-build/cmake
     dev-build/cmake-extras
+    dev-build/samurai
     dev-qt/qtdeclarative:5
 "
 S="${WORKDIR}/${PN}-v${PV}"
