@@ -7,9 +7,9 @@ inherit qt5-build git-r3
 
 KEYWORDS="~amd64"
 EGIT_REPO_URI="https://github.com/qt/${PN}.git"
-EGIT_COMMIT="81e08ee508d0a49c588705cc9c47568b09a258db"
+EGIT_COMMIT="<COMMIT>"
 
-DESCRIPTION="Qt Systems"
+DESCRIPTION="<DESCRIPTION>"
 
 HOMEPAGE="https://qt-project.org/"
 
@@ -22,3 +22,7 @@ RDEPEND="
 "
 
 DEPEND="${RDEPEND}"
+
+#PATCHES=(
+#    "${FILESDIR}"/
+#)

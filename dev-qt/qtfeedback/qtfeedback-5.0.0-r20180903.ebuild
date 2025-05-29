@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit qmake-utils git-r3
+inherit qt5-build git-r3
 
 KEYWORDS="~amd64"
 EGIT_REPO_URI="https://github.com/qt/${PN}.git"
@@ -14,30 +14,15 @@ DESCRIPTION="Qt Tactile Feedback"
 HOMEPAGE="https://qt-project.org/"
 
 LICENSE="LGPL-2.1 LGPL-3 GPL-3"
-SLOT="5"
 
-DEPEND="
-
+RDEPEND="
+    =dev-qt/qtcore-${QT5_PV}*
+    =dev-qt/qtdeclarative-${QT5_PV}*
 "
-RDEPEND="${DEPEND}"
 
-BDEPEND="
-    dev-util/intltool
-    dev-qt/qtdeclarative:5
-"
+DEPEND="${RDEPEND}"
+
+
 PATCHES=(
     "${FILESDIR}"/0001-Set-MODULE_VERSION-to-5.0.0.patch
 )
-
-src_prepare() {
-        default
-}
-
-
-src_configure() {
-    eqmake5 CONFIG+=no_docs
-}
-
-src_install() {
-    emake install INSTALL_ROOT="${D}"
-}
