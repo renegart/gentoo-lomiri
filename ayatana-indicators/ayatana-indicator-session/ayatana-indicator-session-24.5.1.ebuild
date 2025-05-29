@@ -8,16 +8,18 @@ inherit cmake xdg
 KEYWORDS="~amd64"
 SRC_URI="https://releases.ayatana-indicators.org/source/${PN}/${P}.tar.gz"
 
-
 DESCRIPTION="Ayatana Indicator Session Applet"
 HOMEPAGE="https://github.com/AyatanaIndicators/${PN}"
 
 LICENSE="GPL-3"
 SLOT="0"
+IUSE="+rda"
+
 
 DEPEND="
     dev-libs/glib
     dev-libs/libayatana-common
+    rda? ( dev-libs/librda )
 "
 RDEPEND="${DEPEND}"
 
@@ -34,8 +36,11 @@ src_configure() {
         -DENABLE_TESTS="OFF"
         -DENABLE_COVERAGE="OFF"
         -DENABLE_WERROR="ON"
-        -DENABLE_RDA="OFF"
     )
+
+    if use rda; then
+		mycmakeargs+=" -DENABLE_RDA=OFF"
+    fi
 
     cmake_src_configure
 }
