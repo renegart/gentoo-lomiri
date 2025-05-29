@@ -13,17 +13,20 @@ endlegend
   *[#yellow] lomiri-base/lomiri::gentoo-lomiri
     *[#green] dev-libs/deviceinfo::gentoo-lomiri
     *[#green] dev-libs/qmenumodel::gentoo-lomiri
-    *[#yellow] dev-qt/qtmir::gentoo-lomiri
+    *[#green] dev-qt/qtmir::gentoo-lomiri
       *[#green] dev-libs/process-cpp:gentoo-lomiri
+        *[#lightgreen] dev-libs/properties-cpp::gentoo-lomiri
       *[#green] dev-qt/qtsensors::gentoo-lomiri
+      *[#lightgreen] gui-libs/mir::**guru**
+      *[#green] lomiri-extra/qsettings-qt::gentoo-lomiri
     *[#green] net-libs/geonames::gentoo-lomiri
     *[#green] lomiri-extra/lomiri-app-launch::gentoo-lomiri
       *[#green] dev-util/click::gentoo-lomiri
-        *[#green] properties-cpp::gentoo-lomiri
+        *[#green] dev-libs/properties-cpp::gentoo-lomiri
           *[#green] dev-build/cmake-extras::gentoo-lomiri
       *[#green] gnome-extra/zeitgeist::gentoo-lomiri
       *[#green] lomiri-base/lomiri-api::gentoo-lomiri
-      *[#green] gui-libs/mir::**guru**
+      *[#lightgreen] gui-libs/mir::**guru**
     *[#green] ayatana-indicators/ayatana-indicator-keyboard::gentoo-lomiri
       *[#green] dev-libs/libayatana-common::gentoo-lomiri
         *[#green] lomiri-extra/lomiri-url-dispatcher::gentoo-lomiri
