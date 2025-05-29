@@ -1,14 +1,14 @@
-BDEPEND=dev-build/cmake dev-build/cmake-extras dev-qt/qtdeclarative:5 app-alternatives/ninja >=dev-build/cmake-3.20.5
+BDEPEND=dev-build/cmake dev-build/cmake-extras dev-build/samurai dev-qt/qtdeclarative:5 app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-libs/glib
+DEPEND=dev-libs/glib dev-qt/qtcore:5
 DESCRIPTION=Library to access GSettings from Qt
 EAPI=8
 HOMEPAGE=https://gitlab.com/ubports/development/core/gsettings-qt
 INHERIT=cmake qmake-utils
 KEYWORDS=~amd64
 LICENSE=LGPL-3
-RDEPEND=dev-libs/glib
+RDEPEND=dev-libs/glib dev-qt/qtcore:5
 SLOT=0
 SRC_URI=https://gitlab.com/ubports/development/core/gsettings-qt/-/archive/v1.0.0/gsettings-qt-v1.0.0.tar.gz
 _eclasses_=cmake	b05c1b7b3c9213c155f128f4eadaa49f	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
-_md5_=3e5e9aaddd612c1e363f4f41a36fb1d4
+_md5_=39d5eff1bfffe3540fabbd374abcc73b

@@ -16,8 +16,8 @@ HOMEPAGE="https://qt-project.org/"
 LICENSE="LGPL-2.1 LGPL-3 GPL-3"
 
 RDEPEND="
-    =dev-qt/qtcore-${QT5_PV}*
-    =dev-qt/qtdeclarative-${QT5_PV}*
+    dev-qt/qtcore:5
+    dev-qt/qtdeclarative:5
 "
 
 DEPEND="${RDEPEND}"

@@ -1,15 +1,15 @@
 BDEPEND=dev-build/cmake-extras dev-util/intltool virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=ayatana-indicators/ayatana-indicator-keyboard ayatana-indicators/ayatana-indicator-session dev-libs/glib dev-libs/qmenumodel dev-libs/deviceinfo dev-qt/qtconcurrent:5 dev-qt/qtdeclarative:5 dev-qt/qtmir:5 dev-qt/qtsvg:5 dev-qt/qtsql:5 dev-qt/qtxml:5 gnome-base/gnome-desktop:3 >=lomiri-base/lomiri-schemas-0.1.8 >=lomiri-extra/lomiri-app-launch-0.1.5 >=lomiri-extra/lomiri-ui-toolkit-1.3.5110 >=net-libs/geonames-0.3.1
+DEPEND=ayatana-indicators/ayatana-indicator-keyboard ayatana-indicators/ayatana-indicator-session dev-libs/glib dev-libs/qmenumodel dev-libs/deviceinfo dev-qt/qtconcurrent:5 dev-qt/qtdeclarative:5 dev-qt/qtmir dev-qt/qtsvg:5 dev-qt/qtsql:5 dev-qt/qtxml:5 gnome-base/gnome-desktop:3 >=lomiri-base/lomiri-schemas-0.1.8 >=lomiri-extra/lomiri-app-launch-0.1.5 >=lomiri-extra/lomiri-ui-toolkit-1.3.5110 >=net-libs/geonames-0.3.1
 DESCRIPTION=The Lomiri (Unity8) Desktop
 EAPI=8
 HOMEPAGE=https://gitlab.com/ubports/development/core/lomiri
 INHERIT=cmake
 KEYWORDS=~amd64
 LICENSE=GPL-3 LGPL-2.1
-RDEPEND=ayatana-indicators/ayatana-indicator-keyboard ayatana-indicators/ayatana-indicator-session dev-libs/glib dev-libs/qmenumodel dev-libs/deviceinfo dev-qt/qtconcurrent:5 dev-qt/qtdeclarative:5 dev-qt/qtmir:5 dev-qt/qtsvg:5 dev-qt/qtsql:5 dev-qt/qtxml:5 gnome-base/gnome-desktop:3 >=lomiri-base/lomiri-schemas-0.1.8 >=lomiri-extra/lomiri-app-launch-0.1.5 >=lomiri-extra/lomiri-ui-toolkit-1.3.5110 >=net-libs/geonames-0.3.1
+RDEPEND=ayatana-indicators/ayatana-indicator-keyboard ayatana-indicators/ayatana-indicator-session dev-libs/glib dev-libs/qmenumodel dev-libs/deviceinfo dev-qt/qtconcurrent:5 dev-qt/qtdeclarative:5 dev-qt/qtmir dev-qt/qtsvg:5 dev-qt/qtsql:5 dev-qt/qtxml:5 gnome-base/gnome-desktop:3 >=lomiri-base/lomiri-schemas-0.1.8 >=lomiri-extra/lomiri-app-launch-0.1.5 >=lomiri-extra/lomiri-ui-toolkit-1.3.5110 >=net-libs/geonames-0.3.1
 RESTRICT=test
 SLOT=0
 SRC_URI=https://gitlab.com/ubports/development/core/lomiri/-/archive/0.5.0/lomiri-0.5.0.tar.gz
 _eclasses_=cmake	b05c1b7b3c9213c155f128f4eadaa49f	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
-_md5_=8b60792931d63f3a325c794a4455f368
+_md5_=610e43fc30479c4b3d6329a3caf5119f

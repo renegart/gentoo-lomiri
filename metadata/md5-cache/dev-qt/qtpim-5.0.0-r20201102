@@ -1,6 +1,6 @@
 BDEPEND=dev-lang/perl virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
-DEPEND==dev-qt/qtcore-5.0.0* =dev-qt/qtdeclarative-5.0.0* test? ( =dev-qt/qttest-5.0.0* )
+DEPEND=dev-qt/qtcore:5 dev-qt/qtdeclarative:5 test? ( =dev-qt/qttest-5.0.0* )
 DESCRIPTION=Qt Personal Information Management
 EAPI=8
 HOMEPAGE=https://qt-project.org/
@@ -9,8 +9,8 @@ IUSE=debug test
 KEYWORDS=~amd64
 LICENSE=LGPL-2.1 LGPL-3 GPL-3
 PROPERTIES=live
-RDEPEND==dev-qt/qtcore-5.0.0* =dev-qt/qtdeclarative-5.0.0*
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtdeclarative:5
 RESTRICT=test
 SLOT=5
 _eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	git-r3	875eb471682d3e1f18da124be97dcc81	qt5-build	b367ed4969ec2f8aadac993d3e60ab6c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	virtualx	9741d451eb64ea8bb9faee90d68a9b68
-_md5_=f74889f9fb7e8d686a26370984bc6749
+_md5_=f31987c71787bfe7ea4897f6da39e72f

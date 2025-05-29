@@ -29,7 +29,7 @@ COMMON_DEPEND="
 	dev-libs/deviceinfo
 	dev-qt/qtconcurrent:5
 	dev-qt/qtdeclarative:5
-	dev-qt/qtmir:5
+	dev-qt/qtmir
 	dev-qt/qtsvg:5
 	dev-qt/qtsql:5
 	dev-qt/qtxml:5
