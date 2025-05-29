@@ -36,7 +36,11 @@ BDEPEND="
 src_prepare() {
     eapply_user
     vala_setup
-    export VALA_API_GEN="${VAPIGEN}"
+
+    # fix hard coded name 'FindVala.cmake' -> maybe we should disable this file
+    sed -i "s:find_program (VALA_COMPILER \"valac\"):find_program (VALA_COMPILER \"valac-$(vala_best_api_version)\"):" cmake/FindVala.cmake || die
+    sed -i "s:find_program (VAPI_GEN \"vapigen\"):find_program (VAPI_GEN \"vapigen-$(vala_best_api_version)\"):" cmake/FindVala.cmake || die
+
     cmake_src_prepare
 }
 
