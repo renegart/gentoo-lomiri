@@ -57,3 +57,11 @@ PATCHES=(
 	"${FILESDIR}"/0005-Use-Mir-2.x.patch
 	"${FILESDIR}"/0006-Build-with-C-20.patch
 )
+
+src_configure() {
+    local mycmakeargs=(
+        -DWITH_MIR2=ON
+    )
+
+    cmake_src_configure
+}
