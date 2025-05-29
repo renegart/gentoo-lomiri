@@ -1,0 +1,14 @@
+BDEPEND=dev-build/cmake-extras dev-build/samurai dev-qt/qtdeclarative:5 dev-qt/qtsensors:5 dev-util/intltool app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/process-cpp dev-util/lttng-ust gui-libs/mir lomiri-extra/lomiri-app-launch lomiri-extra/lomiri-url-dispatcher lomiri-extra/gsettings-qt
+DESCRIPTION=QPA plugin to make Qt a Mir server
+EAPI=8
+HOMEPAGE=https://gitlab.com/ubports/development/core/qtmir
+INHERIT=cmake
+KEYWORDS=~amd64
+LICENSE=LGPL-3
+RDEPEND=dev-libs/process-cpp dev-util/lttng-ust gui-libs/mir lomiri-extra/lomiri-app-launch lomiri-extra/lomiri-url-dispatcher lomiri-extra/gsettings-qt
+SLOT=0
+SRC_URI=https://gitlab.com/ubports/development/core/qtmir/-/archive/ea2f4774b1a109fec3e22a021fb21ff60da80626/qtmir-ea2f4774b1a109fec3e22a021fb21ff60da80626.tar.gz
+_eclasses_=cmake	b05c1b7b3c9213c155f128f4eadaa49f	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
+_md5_=703ad645e95a14e9215c6c16031944d7

@@ -6,7 +6,7 @@ EAPI=8
 inherit cmake
 
 DESCRIPTION="The Lomiri (Unity8) Desktop"
-HOMEPAGE="https://gitlab.com/ubports/development/core/lomiri"
+HOMEPAGE="https://gitlab.com/ubports/development/core/${PN}"
 
 if [[ ${PV} == 9999 ]]; then
     KEYWORDS=""

@@ -3,7 +3,6 @@
 
 EAPI=8
 
-CMAKE_MAKEFILE_GENERATOR=emake
 inherit cmake vala
 
 KEYWORDS="~amd64"
