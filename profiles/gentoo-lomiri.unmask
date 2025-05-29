@@ -1,1 +1,2 @@
 dev-qt/*::gentoo-lomiri
+=dev-cpp/glog-0.7.1::gentoo

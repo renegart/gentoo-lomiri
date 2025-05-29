@@ -1,12 +1,11 @@
 ayatana-indicators/*::gentoo-lomiri
+
 dev-build/*::gentoo-lomiri
 dev-util/*::gentoo-lomiri
 dev-libs/*::gentoo-lomiri
 dev-qt/*::gentoo-lomiri
 
 gnome-extra/*::gentoo-lomiri
-
-gui-libs/mir::guru
 
 lomiri-base/*::gentoo-lomiri
 lomiri-extra/*::gentoo-lomiri
@@ -17,3 +16,9 @@ media-libs/*::gentoo-lomiri
 net-libs/*::gentoo-lomiri
 
 net-misc/*::gentoo-lomiri
+
+# gentoo tree
+=dev-cpp/glog-0.7.1::gentoo
+
+# guru tree
+gui-libs/mir::guru

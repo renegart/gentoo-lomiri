@@ -1,0 +1,14 @@
+BDEPEND=dev-build/cmake dev-build/cmake-extras app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=ayatana-indicators/ayatana-indicator-messages dev-libs/libayatana-common dev-libs/libical dev-libs/properties-cpp dev-libs/glib gnome-extra/evolution-data-server media-libs/gstreamer net-libs/libaccounts-glib x11-libs/libnotify
+DESCRIPTION=Ayatana Indicator Date & Time Applet
+EAPI=8
+HOMEPAGE=https://github.com/AyatanaIndicators/ayatana-indicator-datetime
+INHERIT=cmake
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=ayatana-indicators/ayatana-indicator-messages dev-libs/libayatana-common dev-libs/libical dev-libs/properties-cpp dev-libs/glib gnome-extra/evolution-data-server media-libs/gstreamer net-libs/libaccounts-glib x11-libs/libnotify
+SLOT=0
+SRC_URI=https://releases.ayatana-indicators.org/source/ayatana-indicator-datetime/ayatana-indicator-datetime-25.4.0.tar.gz
+_eclasses_=cmake	b05c1b7b3c9213c155f128f4eadaa49f	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
+_md5_=6e5444ff115283690749f82f0a3148e9

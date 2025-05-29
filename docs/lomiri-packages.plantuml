@@ -20,6 +20,28 @@ endlegend
       *[#lightgreen] gui-libs/mir::**guru**
       *[#green] lomiri-extra/qsettings-qt::gentoo-lomiri
     *[#green] net-libs/geonames::gentoo-lomiri
+    *[#yellow] lomiri-base/lomiri-system-settings:gentoo-lomiri
+      *[#green] ayatana-indicators/ayatana-indicator-bluetooth::gentoo-lomiri
+      *[#green] ayatana-indicators/ayatana-indicator-datetime::gentoo-lomiri
+        *[#green] ayatana-indicators/ayatana-indicator-messages::gentoo-lomiri
+      *[#green] ayatana-indicators/ayatana-indicator-power::gentoo-lomiri
+        *[#lightgreen] dev-libs/librda::gentoo-lomiri
+      *[#red] lomiri-base/lomiri-content-hub::gentoo-lomiri
+      *[#red] lomiri-base/lomiri-settings-components::gentoo-lomiri
+      *[#yellow] lomiri-base/lomiri-trust-store::gentoo-lomiri
+        *[#yellow] dev-libs/dbus-cpp::gentoo-lomiri
+          *[#lightgreen] dev-libs/process-cpp::gentoo-lomiri
+        *[#lightgreen] dev-libs/process-cpp::gentoo-lomiri
+        *[#lightgreen] dev-libs/properties-cpp::gentoo-lomiri
+        *[#lightgreen] gui-libs/mir::**guru**
+      *[#green] lomiri-extra/lomiri-ui-toolkit::gentoo-lomiri
+        *[#green] dev-qt/qtfeedback::gentoo-lomiri
+        *[#green] dev-qt/qtpim::gentoo-lomiri
+        *[#green] dev-qt/qtsystems::gentoo-lomiri
+      *[#yellow] lomiri-indicators/lomiri-network-indicator::gentoo-lomiri
+        *[#lightgreen] lomiri-base/lomiri-api::gentoo-lomiri
+        *[#lightgreen] lomiri-extra/lomiri-url-dispatcher::gentoo-lomiri
+        *[#lightgreen] lomiri-extra/lomiri-app-launch::gentoo-lomiri
     *[#green] lomiri-extra/lomiri-app-launch::gentoo-lomiri
       *[#green] dev-util/click::gentoo-lomiri
         *[#green] dev-libs/properties-cpp::gentoo-lomiri
@@ -34,19 +56,12 @@ endlegend
           *[#lightgreen] lomiri-extra/lomiri-app-launch::gentoo-lomiri
     *[#green] ayatana-indicators/ayatana-indicator-session::gentoo-lomir
       *[#lightgreen] dev-libs/libayatana-common::gentoo-lomiri
+      *[#green] dev/libs/librda::gentoo-lomiri
     *[#red] biometryd::gentoo-lomiri
     *[#red] lomiri-base/lomiri-notifications::gentoo-lomiri
     *[#green] lomiri-base/lomiri-schemas::gentoo-lomiri
-    *[#red] lomiri-base/lomiri-settings-components::gentoo-lomiri
+    *[#lightgreen] lomiri-base/lomiri-settings-components::gentoo-lomiri
     *[#red] lomiri-extra/lomiri-telephony-service::gentoo-lomiri
     *[#red] lomiri-extra/lomiri-thumbnailer::gentoo-lomiri
-    *[#green] lomiri-extra/lomiri-ui-toolkit::gentoo-lomiri
-      *[#green] dev-qt/qtfeedback::gentoo-lomiri
-      *[#green] dev-qt/qtpim::gentoo-lomiri
-      *[#green] dev-qt/qtsystems::gentoo-lomiri
-  *[#yellow] lomiri-indicators/lomiri-network-indicator::gentoo-lomiri
-    *[#lightgreen] lomiri-base/lomiri-api::gentoo-lomiri
-    *[#lightgreen] lomiri-extra/lomiri-url-dispatcher::gentoo-lomiri
-    *[#lightgreen] lomiri-extra/lomiri-app-launch::gentoo-lomiri
-
+    *[#lightgreen] lomiri-extra/lomiri-ui-toolkit::gentoo-lomiri
 @endmindmap
