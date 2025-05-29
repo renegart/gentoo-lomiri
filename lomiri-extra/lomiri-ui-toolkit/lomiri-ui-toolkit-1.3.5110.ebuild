@@ -25,6 +25,7 @@ DEPEND="
     dev-libs/inih
     dev-qt/qtgraphicaleffects:5
     dev-qt/qtsvg:5
+    dev-qt/qtfeedback:5
     dev-qt/qtpim:5
     dev-qt/qtsystems:5
     dev-util/lttng-ust
